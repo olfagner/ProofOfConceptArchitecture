@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProofOfConceptArchitecture.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProofOfConceptArchitecture.Api", "ProofOfConceptArchitecture.Api\ProofOfConceptArchitecture.Api.csproj", "{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConceptArchitecture.Infrastructure", "ProofOfConceptArchitecture.Infrastructure\ProofOfConceptArchitecture.Infrastructure.csproj", "{943DC403-5495-4193-95AC-021099EB65C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943DC403-5495-4193-95AC-021099EB65C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943DC403-5495-4193-95AC-021099EB65C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943DC403-5495-4193-95AC-021099EB65C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943DC403-5495-4193-95AC-021099EB65C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{15F382F3-53F7-41E5-80CA-19713DB60309} = {AF1DE81B-3D3A-436C-91EF-42603D717333}
 		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7} = {8F4E79A7-AEC0-407D-A251-35DE78A3EE0B}
+		{943DC403-5495-4193-95AC-021099EB65C2} = {85373186-B711-4C2F-9159-5B63148F2558}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDCE01A4-5C43-4EA1-8FAA-666A32DCF293}
