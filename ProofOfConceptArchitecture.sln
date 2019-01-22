@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConceptArchitecture.Api", "ProofOfConceptArchitecture\ProofOfConceptArchitecture.Api.csproj", "{4736D112-5C20-424D-8926-0D667B0340A3}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProofOfConceptAchitecture.API", "ProofOfConceptAchitecture.API", "{8F4E79A7-AEC0-407D-A251-35DE78A3EE0B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProofOfConceptAchitecture.Api", "ProofOfConceptAchitecture.Api", "{8F4E79A7-AEC0-407D-A251-35DE78A3EE0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProofOfConceptAchitecture.Domain", "ProofOfConceptAchitecture.Domain", "{AF1DE81B-3D3A-436C-91EF-42603D717333}"
 EndProject
@@ -13,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProofOfConceptAchiteture.In
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProofOfConceptAchiteture.UnitTests", "ProofOfConceptAchiteture.UnitTests", "{BA9F8E32-B15C-47FD-8F68-9C90396B0ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConceptArchitecture.Domain", "ProofOfConceptArchitecture.Domain\ProofOfConceptArchitecture.Domain.csproj", "{15F382F3-53F7-41E5-80CA-19713DB60309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProofOfConceptArchitecture.Domain", "ProofOfConceptArchitecture.Domain\ProofOfConceptArchitecture.Domain.csproj", "{15F382F3-53F7-41E5-80CA-19713DB60309}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProofOfConceptArchitecture.Api", "ProofOfConceptArchitecture.Api\ProofOfConceptArchitecture.Api.csproj", "{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,21 +21,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4736D112-5C20-424D-8926-0D667B0340A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4736D112-5C20-424D-8926-0D667B0340A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4736D112-5C20-424D-8926-0D667B0340A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4736D112-5C20-424D-8926-0D667B0340A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15F382F3-53F7-41E5-80CA-19713DB60309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15F382F3-53F7-41E5-80CA-19713DB60309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F382F3-53F7-41E5-80CA-19713DB60309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F382F3-53F7-41E5-80CA-19713DB60309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4736D112-5C20-424D-8926-0D667B0340A3} = {8F4E79A7-AEC0-407D-A251-35DE78A3EE0B}
 		{15F382F3-53F7-41E5-80CA-19713DB60309} = {AF1DE81B-3D3A-436C-91EF-42603D717333}
+		{F3A9AD92-B39E-4421-BC7B-058D9368A1C7} = {8F4E79A7-AEC0-407D-A251-35DE78A3EE0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDCE01A4-5C43-4EA1-8FAA-666A32DCF293}
